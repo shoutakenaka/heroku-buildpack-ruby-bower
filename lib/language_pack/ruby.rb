@@ -18,11 +18,11 @@ class LanguagePack::Ruby < LanguagePack::Base
   JVM_BASE_URL         = "http://heroku-jdk.s3.amazonaws.com"
   LATEST_JVM_VERSION   = "openjdk7-latest"
   LEGACY_JVM_VERSION   = "openjdk1.7.0_25"
-  DEFAULT_RUBY_VERSION = "ruby-2.0.0"
+  DEFAULT_RUBY_VERSION = "ruby-2.1.2"
   RBX_BASE_URL         = "http://binaries.rubini.us/heroku"
   BOWER_VERSION        = "1.3.9"
   BOWER_BASE_URL       = "http://heroku-buildpack-ruby-bower.s3.amazonaws.com"
-  NODE_JS_VERSION      = "0.10.21"
+  NODE_JS_VERSION      = "0.10.29"
   NODE_JS_BASE_URL     = "http://heroku-buildpack-nodejs.s3.amazonaws.com"
   NODE_BP_PATH         = "vendor/node/bin"
 
